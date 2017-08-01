@@ -1,0 +1,81 @@
+﻿crop_parent,crop,water_supply,crop_name,harvested_area,year,geo,id,value_of_production
+Stimulants,acof,irrigated,Arabica coffee,0,2005,040AF00094,acof,0
+Stimulants,acof,rainfed,Arabica coffee,0,2005,040AF00094,acof,0
+Fruits,bana,irrigated,Banana,0,2005,040AF00094,bana,0
+Fruits,bana,rainfed,Banana,6023,2005,040AF00094,bana,9417350
+Cereals,barl,irrigated,Barley,0,2005,040AF00094,barl,0
+Cereals,barl,rainfed,Barley,0,2005,040AF00094,barl,0
+Pulses,bean,irrigated,Bean,0,2005,040AF00094,bean,0
+Pulses,bean,rainfed,Bean,0,2005,040AF00094,bean,0
+Roots & Tubers,cass,irrigated,Cassava,0,2005,040AF00094,cass,0
+Roots & Tubers,cass,rainfed,Cassava,774631,2005,040AF00094,cass,1007823757
+Pulses,chic,irrigated,Chickpea,0,2005,040AF00094,chic,0
+Pulses,chic,rainfed,Chickpea,0,2005,040AF00094,chic,0
+Oil Crops,cnut,irrigated,Coconut,0,2005,040AF00094,cnut,0
+Oil Crops,cnut,rainfed,Coconut,54999,2005,040AF00094,cnut,34829838
+Stimulants,coco,irrigated,Cocoa,0,2005,040AF00094,coco,0
+Stimulants,coco,rainfed,Cocoa,1894991,2005,040AF00094,coco,765364114
+Fibres,cott,irrigated,Cotton,0,2005,040AF00094,cott,0
+Fibres,cott,rainfed,Cotton,24660,2005,040AF00094,cott,13394071
+Pulses,cowp,irrigated,Cowpea,0,2005,040AF00094,cowp,0
+Pulses,cowp,rainfed,Cowpea,0,2005,040AF00094,cowp,0
+Oil Crops,grou,irrigated,Groundnut,0,2005,040AF00094,grou,0
+Oil Crops,grou,rainfed,Groundnut,453888,2005,040AF00094,grou,199950499
+Pulses,lent,irrigated,Lentil,0,2005,040AF00094,lent,0
+Pulses,lent,rainfed,Lentil,0,2005,040AF00094,lent,0
+Cereals,maiz,irrigated,Maize,0,2005,040AF00094,maiz,0
+Cereals,maiz,rainfed,Maize,758634,2005,040AF00094,maiz,166114481
+Cereals,ocer,irrigated,Other Cereals,0,2005,040AF00094,ocer,0
+Cereals,ocer,rainfed,Other Cereals,33,2005,040AF00094,ocer,2712
+Fibres,ofib,irrigated,Other Fibre Crops,0,2005,040AF00094,ofib,0
+Fibres,ofib,rainfed,Other Fibre Crops,0,2005,040AF00094,ofib,0
+Oil Crops,oilp,irrigated,Oilpalm,0,2005,040AF00094,oilp,0
+Oil Crops,oilp,rainfed,Oilpalm,325265,2005,040AF00094,oilp,207215025
+Oil Crops,ooil,irrigated,Other Oil Crops,0,2005,040AF00094,ooil,0
+Oil Crops,ooil,rainfed,Other Oil Crops,36512,2005,040AF00094,ooil,8994805
+Pulses,opul,irrigated,Other Pulses,0,2005,040AF00094,opul,0
+Pulses,opul,rainfed,Other Pulses,209442,2005,040AF00094,opul,9838399
+Roots & Tubers,orts,irrigated,Other Roots,0,2005,040AF00094,orts,0
+Roots & Tubers,orts,rainfed,Other Roots,261692,2005,040AF00094,orts,357885428
+Pulses,pige,irrigated,Pigeonpea,0,2005,040AF00094,pige,0
+Pulses,pige,rainfed,Pigeonpea,0,2005,040AF00094,pige,0
+Fruits,plnt,irrigated,Plantain,0,2005,040AF00094,plnt,0
+Fruits,plnt,rainfed,Plantain,290059,2005,040AF00094,plnt,555574265
+Cereals,pmil,irrigated,Pearl Millet,0,2005,040AF00094,pmil,0
+Cereals,pmil,rainfed,Pearl Millet,189079,2005,040AF00094,pmil,29866766
+Roots & Tubers,pota,irrigated,Potato,0,2005,040AF00094,pota,0
+Roots & Tubers,pota,rainfed,Potato,0,2005,040AF00094,pota,0
+Oil Crops,rape,irrigated,Rapeseed,0,2005,040AF00094,rape,0
+Oil Crops,rape,rainfed,Rapeseed,0,2005,040AF00094,rape,0
+Stimulants,rcof,irrigated,Robusta Coffee,0,2005,040AF00094,rcof,0
+Stimulants,rcof,rainfed,Robusta Coffee,7833,2005,040AF00094,rcof,1460589
+Cereals,rice,irrigated,Rice,21622,2005,040AF00094,rice,24504725
+Cereals,rice,rainfed,Rice,99833,2005,040AF00094,rice,47841497
+Oil Crops,sesa,irrigated,Sesameseed,0,2005,040AF00094,sesa,0
+Oil Crops,sesa,rainfed,Sesameseed,0,2005,040AF00094,sesa,0
+Cereals,smil,irrigated,Small Millet,0,2005,040AF00094,smil,0
+Cereals,smil,rainfed,Small Millet,0,2005,040AF00094,smil,0
+Cereals,sorg,irrigated,Sorghum,0,2005,040AF00094,sorg,0
+Cereals,sorg,rainfed,Sorghum,307694,2005,040AF00094,sorg,46498962
+Oil Crops,soyb,irrigated,Soybean,0,2005,040AF00094,soyb,0
+Oil Crops,soyb,rainfed,Soybean,0,2005,040AF00094,soyb,0
+Sugar Crops,sugc,irrigated,Sugarcane,0,2005,040AF00094,sugc,0
+Sugar Crops,sugc,rainfed,Sugarcane,5491,2005,040AF00094,sugc,4597005
+Oil Crops,sunf,irrigated,Sunflower,0,2005,040AF00094,sunf,0
+Oil Crops,sunf,rainfed,Sunflower,0,2005,040AF00094,sunf,0
+Roots & Tubers,swpo,irrigated,Sweet Potato,0,2005,040AF00094,swpo,0
+Roots & Tubers,swpo,rainfed,Sweet Potato,71536,2005,040AF00094,swpo,7564610
+Stimulants,teas,irrigated,Tea,0,2005,040AF00094,teas,0
+Stimulants,teas,rainfed,Tea,0,2005,040AF00094,teas,0
+Fruits,temf,irrigated,Temperate Fruit,0,2005,040AF00094,temf,0
+Fruits,temf,rainfed,Temperate Fruit,13596,2005,040AF00094,temf,17714605
+Stimulants,toba,irrigated,Tobacco,0,2005,040AF00094,toba,0
+Stimulants,toba,rainfed,Tobacco,4836,2005,040AF00094,toba,3371662
+Fruits,trof,irrigated,Tropical Fruit,0,2005,040AF00094,trof,0
+Fruits,trof,rainfed,Tropical Fruit,53666,2005,040AF00094,trof,137271936
+Vegetables,vege,irrigated,Vegetables,31716,2005,040AF00094,vege,112890211
+Vegetables,vege,rainfed,Vegetables,74600,2005,040AF00094,vege,143167858
+Cereals,whea,irrigated,Wheat,0,2005,040AF00094,whea,0
+Cereals,whea,rainfed,Wheat,0,2005,040AF00094,whea,0
+Roots & Tubers,yams,irrigated,Yams,0,2005,040AF00094,yams,0
+Roots & Tubers,yams,rainfed,Yams,332939,2005,040AF00094,yams,1028938832

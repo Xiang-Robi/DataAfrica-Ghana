@@ -1,0 +1,256 @@
+#treeMapAreaCtn, #treeMapValueCtn,
+#areaVsValueScatterPlotCtn {
+	height: 35rem;
+	width: 100%;
+}
+#rainfedIrrigatedBarMapCtn, #rainfedCropsTreeMapCtn, #irrigatedCropsTreeMapCtn {
+	width: 100%;
+	height: 20rem;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font: Work Sans, sans-serif !important;
+	color: #fff;
+}
+#wrapper {
+	width: 100%;
+	height: 100%;
+}
+/*all green color text*/
+span.greenText {
+	color: #74e19a;
+}
+/**/
+#topNavbarRow {
+	background: green;
+	height: 5rem;
+	width: 100%;
+margin-left: 0px;
+position: fixed;
+top: -1600px;
+z-index: 1;
+}
+#topNavbarRow>div{
+	font-size: 1rem;
+	/*	line-height: 1.2rem;*/
+	text-align: center;
+}
+#topNavbarRow #topNavbarRowDATAAFRICA {
+	font-size: 1.5rem;
+	font-weight: 800;
+	padding-bottom: 1rem;
+}
+
+
+/**/
+#Part1-ctn {
+	width: 100%;
+/*	height: 100rem;
+*/	background: #3B4835;
+/*border: 1px solid green;*/
+}
+#Part1-ctn #logoRow {
+/*	height: 5%;
+*/}
+#Part1-ctn #logoRow h2{
+
+}
+#Part1-ctn #africaMapRow {
+/*	height: 40%;
+border: 1px solid blue;*/
+margin-top: 8rem;
+margin-bottom: 8rem;
+height: auto;
+}
+#Part1-ctn #africaMapRow img {
+	width: 50%;
+	opacity: 0.5;
+}
+#Part1-ctn #africaMapRow h1 {
+	font-weight: 600;
+	font-size: 4rem;
+}
+#Part1-ctn #africaMapRow h1 {
+	font-weight: 600;
+	font-size: 3.5rem;
+}
+#Part1-ctn #navRow {
+
+}
+#Part1-ctn #navRow a {
+	font-size: 1.2rem;
+	color: white;
+}
+#Part1-ctn #aboutRow {
+	height: 50%;
+}
+#Part1-ctn #aboutRow img {
+	width: 65%;
+	opacity: 0.5;
+}
+#Part1-ctn p {
+	margin-bottom: 0.5rem;
+	margin-top: 2rem;
+}
+#Part1-ctn #aboutRow h2, #Part1-ctn #aboutRow p {
+	margin-left: 5rem;
+}
+#Part1-ctn #aboutRow h2 {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+#Part1-ctn #aboutRow p#aboutText{
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 2.8rem;
+	font: Work Sans, sans-serif !important;
+	margin-bottom: 3rem;
+
+}
+#Part1-ctn h2 {
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 1.2rem;
+}
+
+/*	*/
+#Part2-ctn {
+	width: 100%;
+/*	height: 200rem;
+*/	background: #F2F2F2;
+/*border: 1px solid peru;
+color: blue;*/
+}
+#Part2-ctn #agricultureRow, #Part3-ctn #climateRow {
+	width: 100%;
+	height: 5rem;
+	top: 5rem;
+}
+#Part2-ctn #agricultureRow h1, #Part3-ctn #climateRow h1 {
+	color: #000;
+	font-weight: 600;
+	font-size: 3rem;
+	margin-top: 3rem;
+
+}
+.rowForImg {
+	width: 90%;
+	height: 35rem;
+	margin-top: 5rem;
+	background: white;
+	/*	border: 3px solid yellow;*/
+/*	overflow:auto;
+*/}
+
+@media only screen and (max-width : 992px) {
+	.rowForImg {
+		width: 90%;
+		height: 35rem;
+		margin-top: 5rem;
+		background: white;
+		border: 3px solid yellow;
+		overflow:auto;
+	}
+}
+
+#Part2-ctn .rowForImg p {
+	color: #000;
+	margin-left: 5rem;
+}
+#Part2-ctn .rowForImg .imgText1 {
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	margin-top: 3rem;
+}
+#Part2-ctn .rowForImg .imgText2 {
+	font-weight: 300;
+	font-size: 3rem;
+	line-height: 3rem;
+	color: #74e19a;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+#Part2-ctn .rowForImg .imgText3 {
+	font-weight: 600;
+	font-size: 0.8rem;
+	color: #888888;
+	margin-bottom: 0.2rem;
+}
+#Part2-ctn .rowForImg .imgText4 {
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: #888888;
+	margin-top: 0;
+}
+#Part2-ctn .rowForImg .imgText5 {
+	font-weight: 300;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+#Part2-ctn #rainfedIrrigatedBarMapCtn {
+	height: 15rem;
+	margin-bottom: 1rem;
+}
+/*#Part2-ctn #areaVsValueRow {
+	height: 40rem;
+	border: 1px solid blue;
+	}*/
+/*#Part2-ctn #waterSupplyRow{
+	height: 40rem;
+	border: 1px solid blue;
+	}*/
+	#Part2-ctn #rainfedCropsTreeMapCtn {
+		height: 20rem;
+	}
+
+	/**/
+
+	#Part3-ctn p, #Part3-ctn h3, #Part3-ctn h4 {
+		margin-top: 1rem;
+	}
+	#Part3-ctn h3, #Part3-ctn h4 {
+		margin-left: 5rem;
+	}
+	#Part3-ctn p {
+		color: #000;
+		width: 100%;
+		margin-top: 2rem;
+	}
+	#Part3-ctn {
+		width: 100%;
+		background: #F2F2F2;
+	}
+	#Part3-ctn #climateTextRow {
+		width: 90%;
+		height: 6rem;
+		margin-top: 5rem;
+		margin-bottom: -5rem;
+		background: white;
+		/*	border: 3px solid darkgreen;*/
+	}
+	#Part3-ctn #climateTextRow h3 {
+		font-weight: 600;
+		font-size: 2rem;
+		color: #000;
+	}
+	#Part3-ctn #climateTextRow h4 {
+		font-weight: 300;
+		font-size: 1.6rem;
+		color: #000;
+	}
+	#Part3-ctn .imgText5 {
+		font-weight: 300;
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	#Part3-ctn #rainfallBarChartCtn {
+		height: 35rem;
+		width: 100%;
+		margin-top: 1rem;
+	}

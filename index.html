@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Data Africa</title>
+	<script src="https://d3plus.org/js/d3.js"></script>
+	<script src="https://d3plus.org/js/d3plus.js"></script>	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<script src="entry.js"></script>
+	
+</head>
+<body>
+
+	<div class="wrapper" id="wrapper">
+		
+		<!-- Fixed Top Navbar -->
+		<div class="row d-flex flex-row justify-content-between align-items-center"" id="topNavbarRow">
+			<div class="col-md-2" id="topNavbarRowDATAAFRICA" >DATA <span class="greenText">AFRICA</span></div>
+			<div class="col-md-6 d-flex flex-row justify-content-between align-items-center">
+				<p>Ghana</p>
+				<a href="#aboutRow"><p>INTRODUCTION</p></a>
+				<a href="#Part2-ctn"><p>AGRICULTURE</p></a> 
+				<a href="#Part3-ctn"><p>CLIMATE</p></a> 
+				<a href="#"><p>HEALTH</p></a>
+				<a href="#"><p>POVERTY</p></a>
+			</div>
+			
+			<div class="col-md-4 d-flex flex-row justify-content-around align-items-center">
+				<p>Search</p>
+				<p>Map</p>
+			</div>
+		</div>
+
+		
+		<!-- Part One: Africa Map + Basic Info Text + Navbar + About-->
+		<div class="container-fluid" id="Part1-ctn">
+			<!-- row 0: logo row -->
+			<!-- row 1: 1. Africa Map + 2. Basic Info Text -->
+			<!-- row 2: 3. Navbar-->
+			<!-- row 3: 4. About -->
+			<div class="row" id="logoRow" >
+				<div class="col-md-3 d-flex flex-row justify-content-between align-items-center">
+				<h3>DATA <span class="greenText">AFRICA</span></h3>
+				<h3>Ghana</h3>
+				</div>
+				<div class="col-md-6"></div>
+				<div class="col-md-3 d-flex flex-row justify-content-between align-items-center">
+					<h4>Search</h4>
+					<h4>Map</h4>
+				</div>
+			</div>
+
+			<div class="row" id="africaMapRow" >
+				<!-- 1. Africa Map -->
+				<div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
+					<img src="africaMap.gif" alt="">
+
+				</div>
+
+				<!-- 2. Basic Info Text -->
+				<div class="col-md-6">
+					<h1>Ghana</h1>
+					<p>MOST HARVESTED CROP <span class="greenText">IN 2005</span></p>
+					<h2>Cocoa</h2>
+					<p>POVERTY HEADCOUNT RATIO $1.90/DAY (2011 PPP) <span class="greenText">IN 2012</span></p>
+					<h2>8%</h2>
+					<p>MOST ACUTE CONDITION AMONG CHILDREN <span class="greenText">IN 2014</span></p>
+					<h2>5% Severely Stunted</h2>
+					<p>AVERAGE ANNUAL RAINFALL <span class="greenText">FROM 1990 TO 2015</span></p>
+					<h2>1,169mm</h2>
+				</div>
+
+			</div>
+
+
+			<!-- 3. Navbar -->
+			<div class="row d-flex flex-row align-items-center" id="navRow" >
+				<div class="col-md-1"></div>
+				<div class="col-md-2 d-flex flex-column justify-content-end align-items-center">
+					<img src="icon/introduction.svg" alt="">
+					<a class="nav-link" href="#aboutRow">Introduction</a>
+				</div>
+				<div class="col-md-2 d-flex flex-column justify-content-end align-items-center">
+					<img src="icon/agriculture.svg" alt="">
+					<a class="nav-link" href="#Part2-ctn">Agriculture</a>
+				</div>
+				<div class="col-md-2 d-flex flex-column justify-content-end align-items-center">
+					<img src="icon/climate.svg" alt="">
+					<a class="nav-link"  href="#Part3-ctn">Climate</a>
+				</div>
+				<div class="col-md-2 d-flex flex-column justify-content-end align-items-center">
+					<img src="icon/hospital.svg" alt="">
+					<a class="nav-link" href="#">Health
+					</a>
+				</div>
+				<div class="col-md-2 d-flex flex-column justify-content-end align-items-center">
+					<img src="icon/poverty.svg" alt="">
+					<a class="nav-link" href="#">Poverty</a>
+				</div>
+				<div class="col-md-1"></div>
+
+			</div>
+
+
+			<!-- 4. about -->
+			<div class="row" id="aboutRow" >
+				<!-- Text -->
+				<div class="col-sm-7">
+					<h2>About</h2>
+					<p id="aboutText" >Ghana is a country located in Africa south of the Sahara. As of 2012 Ghana had a total population of approximately 26.35M people. This represents a 19% increase from 2005 when the population of Ghana was approximately 22.22M. <br><br>
+						The most widely harvested crop in Ghana by area was Cocoa with span1.89M ha harvested with a total production value of Intl $765.37M. <br><br>
+						Among children in Ghana in 2014, 5% were severely stunted, 2% were severely underweight, and 1% were severely wasted. <br><br>
+						As of 2012, there were 2.14M people living below $1.90/day (2011 PPP) and 6.17M people living below $3.10/day (2011 PPP) in Ghana.
+					</p>
+				</div>
+				<!-- Photo -->
+				<div class="col-sm-5 d-flex flex-column justify-content-center align-items-center">
+					<img src="ghanaMap.png" alt="">
+				</div>
+			</div>
+
+		</div>
+		<!-- Part Two: AGRICULTURE -->
+		<div class="container-fluid d-flex flex-column justify-content-center align-items-center" id="Part2-ctn">
+			<!-- row 0: header -->
+			<!-- row 1: Crops by Harvested Area -->
+			<!-- row 2: Crops by Production Value -->
+			<!-- row 3: Harvested Area Versus Production Value-->
+			<!-- row 4: Water Supply for Crops -->
+			<!-- Two columns for each row1-4: text + img -->
+
+			<!-- row 0: header -->
+			<div class="row" id="agricultureRow" >
+				<div class="col-sm-12 d-flex flex-column justify-content-start align-items-center">
+					<h1 class="sectionHeader" >AGRICULTURE</h1>
+				</div>
+			</div>
+
+			<!-- row 1: Crops by Harvested Area -->
+			<!-- rowForImg: rows with a SVG img -->
+			<div class="row rowForImg">
+				<div class="col-md-4">
+					<p class="imgText1" >Crops by Harvested Area</p>
+					<p class="imgText2"">Cocoa</p>
+					<p class="imgText3">Most Common Crop by Harvested Area
+					</p>
+					<p class="imgText4">Data provided by IFPRI's Cell5M Repository
+					</p>
+					<p class="imgText5">In 2005, the most common crop in Ghana by harvested area was Cocoa with <span class="greenText">1.89M ha</span>.
+					</p>
+				</div>
+				<div class="col-md-8" id="treeMapAreaCtn">
+
+				</div>
+			</div>
+
+			<!-- row 2: Crops by Production Value -->
+			<div class="row rowForImg">
+				<div class="col-md-4">
+					<p class="imgText1" >Crops by Production Value</p>
+					<p class="imgText2"">Yams</p>
+					<p class="imgText3">Most Common Crop by Production Value
+					</p>
+					<p class="imgText4">Data provided by IFPRI's Cell5M Repository
+					</p>
+					<p class="imgText5">In 2005, the crop with the highest production value in Ghana was Yams, with a value of <span class="greenText">Intl $1.03B</span>.
+					</p>
+				</div>
+				<div class="col-md-8" id="treeMapValueCtn">
+
+				</div>
+			</div>
+
+			<!-- row 3: Harvested Area Versus Production Value-->
+
+			<div class="row rowForImg" id="areaVsValueRow" >
+				<div class="col-md-4">
+					<p class="imgText1" >Harvested Area Versus Value of Production</p>
+					<p class="imgText5"><span class="greenText">Yams</span> are the crop with the highest production value per area in Ghana, with Intl $3.09k per ha.<br><br>
+						<span class="greenText">Other Pulses</span> are the crop with the lowest production value per area in Ghana, with Intl $47.0 per ha. <br><br>
+						This means that growers of Yams will earn approximately <span class="greenText">66 times</span> more per hectare than if they grow Other Pulses.
+					</p>
+				</div>
+				<div class="col-md-8" id="areaVsValueScatterPlotCtn"></div>
+			</div>
+
+			<!-- row 4: Water Supply for Crops -->
+			<div class="row rowForImg" id='waterSupplyRow' >
+				<div class="col-md-4">
+					<p class="imgText1" >Water Supply for Crops</p>
+					<p class="imgText2" >99%   1%</p>
+					<p class="imgText3">Rainfed Irrigated</p>
+						
+						
+						
+						<p class="imgText5">In 2005, <span class="greenText">99%</span> of the crops produced in Ghana by harvested area were rainfed, compared to <span class="greenText">1%</span> irrigated.
+						</p>
+					</div>
+
+					<!--This col = top row + bottom row (two treeMaps)  -->
+					<div class="col-md-8" >
+						<!-- top row: bar map-->
+						<div class="row">
+							<div class="col-sm-12" id="rainfedIrrigatedBarMapCtn">
+
+							</div>
+						</div>
+						<!-- bottom row (two treeMaps) -->
+						<div class="row" id="rainfedIrrigatedTreeMapRow" >
+							<div class="col-sm-6" id="rainfedCropsTreeMapCtn" >
+
+							</div>
+							<div class="col-sm-6" id="irrigatedCropsTreeMapCtn">
+
+							</div>
+						</div>
+
+					</div>
+				</div>		
+			<!-- closing tag for Part 2 div -->
+			</div>
+
+			<!-- Part Three: climate -->
+
+			<div class="container-fluid d-flex flex-column justify-content-center align-items-center" id="Part3-ctn">
+				<!-- row 0: header -->
+				<div class="row" id="climateRow" >
+					<div class="col-sm-12 d-flex flex-column justify-content-start align-items-center">
+						<h1 class="sectionHeader" >CLIMATE</h1>
+					</div>
+				</div>
+				<!-- Two row: two col for each row-->
+				<!-- Top row: header + description text -->
+				<!-- bottom row: map + bar chart -->
+				<div class="row " id="climateTextRow">
+					
+					<div class="col-md-6">
+						<h3> Rainfall by Location</h3>
+						<h4> Average Annual Rainfall</h4>
+					</div>
+					<div class="col-md-6">
+						<p class="imgText5">From 1990 to 2015, Ghana had average annual rainfall of 1,169mm across a total cropland area of 6.66M ha.</p>
+					</div>
+				</div>
+
+				<div class="row rowForImg" id="">
+					
+					<div class="col-sm-12" id="rainfallBarChartCtn" ></div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</div>
+
+
+
+
+		
+
+
+
+
+
+
+
+
+	</body>
+	</html>
